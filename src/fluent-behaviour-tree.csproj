@@ -36,6 +36,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BehaviourTreeBuilder.cs" />
+    <Compile Include="Nodes\RepeaterNode.cs" />
+    <Compile Include="Nodes\RepeatUntilFailNode.cs" />
+    <Compile Include="Nodes\SucceederNode.cs" />
     <Compile Include="Status.cs" />
     <Compile Include="ITickData.cs" />
     <Compile Include="ParentBehaviourTreeNode.cs" />
